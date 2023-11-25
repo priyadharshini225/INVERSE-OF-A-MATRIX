@@ -20,7 +20,7 @@ End the program
 #RegisterNumber:23003522
 
 import numpy as np 
-A= ([6,2,3],[3,1,1],[10,3,4])
+A=[[2,1,1],[1,1,1],[1,-1,2]]
 inv=np.linalg.inv(A)
 print(inv)
 ```
